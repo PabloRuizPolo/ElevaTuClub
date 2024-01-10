@@ -1,0 +1,45 @@
+
+.footer {
+    padding: 2px;
+    margin-bottom: 5px;
+    bottom: 2px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+  
+.footer {
+    text-align: center;
+    background-color: blueviolet;
+    color: aqua;
+    font-style: italic;
+    text-transform: capitalize;
+
+}
+
+.banner {
+    height: 75dvh;
+}
+.banner__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: aqua;
+}
+
+.banner__image {
+    position: absolute;
+    opacity: 0.2;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../multimedia/Captura_de_pantalla_2023-12-14_a_las_16.16.56-removebg-preview.png');
+    background-size: 450px;
+}
+
+.banner__content h1,
+.banner__content h2,
+.banner__content p {
+    margin-top: 0;
+}
