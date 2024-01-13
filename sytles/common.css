@@ -3,6 +3,8 @@
     --main-text: 20d735;
     font-size: 16px;
     font-family: sans-serif;
+    box-sizing: border-box;
+    width: 100%;
 
 }
 

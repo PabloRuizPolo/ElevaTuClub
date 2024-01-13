@@ -1,0 +1,41 @@
+.header {
+    background-color: blueviolet;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    text-align: center;
+}
+.header .header__content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+
+
+}
+.header .logo {
+    font-family: "Brush Script MT";
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: aqua;
+}
+.header .btn {
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: blueviolet;
+    color: aqua;
+    border: none;
+}

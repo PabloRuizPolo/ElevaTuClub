@@ -1,22 +1,29 @@
 
 .footer {
-    padding: 2px;
     margin-bottom: 5px;
     bottom: 2px;
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 3%;
 }
   
 .footer {
+    display: block;
     text-align: center;
     background-color: blueviolet;
     color: aqua;
     font-style: italic;
     text-transform: capitalize;
+    align-items: center;
+
 
 }
-
+.footer p {
+    height: 100%;
+    font-size: 9px;
+    margin: 0px;
+}
 .banner {
     height: 75dvh;
 }
@@ -25,8 +32,11 @@
     position: relative;
     z-index: 1;
     color: aqua;
+    margin-top: 110px;
 }
 
+
+/*
 .banner__image {
     position: absolute;
     opacity: 0.2;
@@ -36,10 +46,16 @@
     bottom: 0;
     background-image: url('../multimedia/Captura_de_pantalla_2023-12-14_a_las_16.16.56-removebg-preview.png');
     background-size: 450px;
+}*/
+.banner__image {
+    background-image: url("../multimedia/6Cx.gif");
+    background-repeat: repeat;
+    background-size: cover;
+
 }
 
+
 .banner__content h1,
-.banner__content h2,
 .banner__content p {
-    margin-top: 0;
+    align-items: center;
 }
